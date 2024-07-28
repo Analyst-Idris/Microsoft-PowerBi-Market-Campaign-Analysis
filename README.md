@@ -1,5 +1,4 @@
 # Onyx June 2024 Challenge on Market Campaign Analysis
-___
 
 ![image](https://github.com/user-attachments/assets/5c73ec99-269e-4958-89b3-b9ca44a8dbbb)
 
@@ -794,7 +793,7 @@ Comments | Total daily comments per ad
 
 # Methodology
 
-## Data Preparation and Visualization
+### Data Preparation and Visualization
 
 To ensure comprehensive time intelligence in my analysis, a new calendar date table was created. This table was then integrated with the provided datasets through data modeling, establishing relationships based on common date columns. This approach enhances my ability to perform time-based analysis and gain deeper insights into the marketing campaign performance over various time periods.
 
@@ -812,12 +811,12 @@ The data preparation process involved several key steps:
 
 ![image](https://github.com/user-attachments/assets/0771c591-3ff8-4ef4-a7d6-da5585a7deff)
 
-## •	Preview of Data
+**• Preview of Data**
 
 
 ![image](https://github.com/user-attachments/assets/fc93a4de-0d10-4dce-96f4-934836a9c5a4)
 
-## •	Preview of Calendar Table
+ **• Preview of Calendar Table**
 
 
 ![image](https://github.com/user-attachments/assets/67b62288-7dd7-47c3-bfcf-d55693ff5d60)
@@ -835,7 +834,7 @@ I.	Calculate key performance indicators (KPIs) such as Return on Investment (ROI
 
 II.	Develop complex aggregations and ratios specific to our marketing campaign analysis needs
 
-# Report Structure and Navigation
+## Report Structure and Navigation
 
 
 To ensure a user-friendly and intuitive experience, the analysis report was structured into three distinct pages, each accessible through custom navigation buttons:
@@ -852,14 +851,14 @@ To ensure a user-friendly and intuitive experience, the analysis report was stru
 
 ## Navigation Features:
 
-**•  Custom Navigation Buttons:** Prominently placed on each page, these buttons allow users to easily move between the different sections of the report. This design ensures quick access to specific areas of interest without the need to scroll through irrelevant information. 
+**Custom Navigation Buttons:** Prominently placed on each page, these buttons allow users to easily move between the different sections of the report. This design ensures quick access to specific areas of interest without the need to scroll through irrelevant information. 
 
 **Home Button:** A dedicated 'Home' button is available on both the Engagement and Performance Analysis pages, enabling users to quickly return to the main dashboard at any point in their exploration. 
 
  **Consistent Layout:** The navigation buttons maintain a consistent position and design across all pages, enhancing user experience and intuitive navigation.
 
  
-# Visualization Techniques: 
+## Visualization Techniques: 
 To facilitate data-driven decision-making and provide clear, actionable insights, a diverse array of visualization techniques were employed throughout the analysis. Each type of chart was carefully selected to best represent the data and convey key findings effectively. The visualizations include:
 
 **Donut Charts:** Utilized to illustrate proportional distribution of key metrics, such as impressions, likes, and comments across different marketing channels. These charts provide an immediate visual understanding of how engagement is distributed.
@@ -873,33 +872,28 @@ To facilitate data-driven decision-making and provide clear, actionable insights
 **Matrix Tables:** Utilized to present detailed, multi-dimensional data in a compact format. These tables are particularly useful for displaying summary statistics and allowing for quick comparisons across multiple variables simultaneously.
 
 
-## Home page
-___
+ **Home page**
 
 ![image](https://github.com/user-attachments/assets/56eb6910-8b62-4c4f-aedf-ad0d26b75fd8)
 
-
-## Engagement Visual
-___
+**Engagement Visual**
 
 ![image](https://github.com/user-attachments/assets/4dafa63b-eb46-4764-af21-cc12f7068ad5)
 
-## Performance Visual
-___
+**Performance Visual**
 
 ![image](https://github.com/user-attachments/assets/a5be5bc2-cdd4-4e23-afa3-46f2929eace2)
 
 
- **SUMMARY OF REVENUE, ROI, AND OTHER KEY METRICS**
-			    
-	The analysis of the marketing campaign's performance revealed insightful trends and regional variations in revenue and Return on Investment (ROI). To visualize the monthly progression of revenue and ROI, I employed line charts. The **navy blue line**, representing ROI trends, and the **light blue line**, depicting revenue trends, provided a clear visual comparison of these two critical metrics over time. This visualization uncovered a notable peak in ROI during July, reaching an impressive 1343.31%. In contrast, November stood out as the month with the highest revenue, totaling 258,588.36. To understand the geographic distribution of our campaign's performance, I utilized a map visualization to present the share of revenue and ROI across different regions.   This approach offered an intuitive representation of regional performance variations. The findings highlighted **Birmingham** as the top-performing region with an ROI of 1293.01%.         
-    Conversely, **London** showed the lowest ROI among the three regions analyzed, at 697.57%. For a comprehensive overview of key performance indicators, I  implemented a matrix table. This table summarized essential metrics including clicks, daily average Cost Per Click (CPC), and Click-Through Rate (CTR) percentages. The matrix format allowed for easy comparison of these metrics across different campaigns and channels, providing a detailed snapshot of performance at various levels of granularity.
+ ## SUMMARY OF REVENUE, ROI, AND OTHER KEY METRICS
 
-    These visualizations collectively offer a multi-faceted view of our marketing campaign's performance. They highlight temporal trends, regional disparities, and granular performance metrics, enabling data-driven decision-making for future campaign optimizations.
-
+  The analysis of the marketing campaign's performance revealed insightful trends and regional variations in revenue and Return on Investment (ROI). To visualize the monthly progression of revenue and ROI, I employed line charts. The **navy blue line**, representing ROI trends, and the **light blue line**, depicting revenue trends, provided a clear visual comparison of these two critical metrics over time. This visualization uncovered a notable peak in ROI during July, reaching an impressive 1343.31%. In contrast, November stood out as the month with the highest revenue, totaling 258,588.36. To understand the geographic distribution of our campaign's performance, I utilized a map visualization to present the share of revenue and ROI across different regions.   This approach offered an intuitive representation of regional performance variations. The findings highlighted **Birmingham** as the top-performing region with an ROI of 1293.01%. Conversely, **London** showed the lowest ROI among the three regions analyzed, at 697.57%. For a comprehensive overview of key performance indicators, I  implemented a matrix table. This table summarized essential metrics including clicks, daily average Cost Per Click (CPC), and Click-Through Rate (CTR) percentages. The matrix format allowed for easy comparison of these metrics across different campaigns and channels, providing a detailed snapshot of performance at various levels of granularity.
+ 
+These visualizations collectively offer a multi-faceted view of our marketing campaign's performance. They highlight temporal trends, regional disparities, and granular performance metrics, enabling data-driven decision-making for future campaign optimizations.
 
                         
-**RECOMMENDATIONS FOR COMPREHENSIVE CAMPAIGN OPTIMIZATION**
+## RECOMMENDATIONS FOR COMPREHENSIVE CAMPAIGN OPTIMIZATION
+
 
 **1. Channel and Platform Optimization:** Based on the exceptional performance of Pinterest, which demonstrated a remarkable ROI of 2147.29%, we recommend several strategic actions. First, it is crucial to prioritize and increase investment in Pinterest to capitalize on its high return. Analyzing the strategies that led to Pinterest's success can provide valuable insights, which can then be adapted and applied to other platforms. By reallocating resources from underperforming channels to high-performing ones like Pinterest, we can ensure a more efficient use of marketing budgets. Additionally, implementing a balanced, cross-channel integration approach will allow us to leverage the unique strengths of each platform, ultimately enhancing overall campaign performance.
 
