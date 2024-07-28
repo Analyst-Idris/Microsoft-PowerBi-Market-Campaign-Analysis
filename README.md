@@ -798,6 +798,8 @@ Comments | Total daily comments per ad
 
 To ensure comprehensive time intelligence in my analysis, a new calendar date table was created. This table was then integrated with the provided datasets through data modeling, establishing relationships based on common date columns. This approach enhances my ability to perform time-based analysis and gain deeper insights into the marketing campaign performance over various time periods.
 
+The data preparation process involved several key steps:
+
 **1.	Calendar Table Creation:** A custom calendar table was generated to support advanced time intelligence functions.
 
 **2.	Data Integration:** The newly created calendar table was integrated with the existing marketing campaign datasets.
@@ -806,11 +808,122 @@ To ensure comprehensive time intelligence in my analysis, a new calendar date ta
 
 **4.	Data Model Review:** A thorough review of the data model was conducted to ensure proper relationships and data integrity.
 
-The data preparation process involved several key steps:
+
 
 ![image](https://github.com/user-attachments/assets/0771c591-3ff8-4ef4-a7d6-da5585a7deff)
 
 ## •	Preview of Data
+
+
+![image](https://github.com/user-attachments/assets/fc93a4de-0d10-4dce-96f4-934836a9c5a4)
+
+## •	Preview of Calendar Table
+
+
+![image](https://github.com/user-attachments/assets/67b62288-7dd7-47c3-bfcf-d55693ff5d60)
+
+
+**• KPIs**
+
+
+![image](https://github.com/user-attachments/assets/a7fa2890-8c75-4626-a31a-b9986c016b3d)
+
+
+**DAX Measure Creation** New measures were created using Data Analysis Expressions (DAX) to enable more sophisticated analysis, These custom measures allowed us to:
+
+I.	Calculate key performance indicators (KPIs) such as Return on Investment (ROI)
+
+II.	Develop complex aggregations and ratios specific to our marketing campaign analysis needs
+
+# Report Structure and Navigation
+
+
+To ensure a user-friendly and intuitive experience, the analysis report was structured into three distinct pages, each accessible through custom navigation buttons:
+
+
+**•  Home Page:** Serves as the central hub and starting point for the analysis. 
+
+
+**•  Engagement Analysis Page:** Focuses on metrics related to audience interaction and campaign reach. 
+
+
+**• Performance Analysis Page:** Concentrates on financial outcomes and return on investment metrics.
+
+
+## Navigation Features:
+
+**•  Custom Navigation Buttons:** Prominently placed on each page, these buttons allow users to easily move between the different sections of the report. This design ensures quick access to specific areas of interest without the need to scroll through irrelevant information. 
+
+**Home Button:** A dedicated 'Home' button is available on both the Engagement and Performance Analysis pages, enabling users to quickly return to the main dashboard at any point in their exploration. 
+
+ **Consistent Layout:** The navigation buttons maintain a consistent position and design across all pages, enhancing user experience and intuitive navigation.
+
+ 
+# Visualization Techniques: 
+To facilitate data-driven decision-making and provide clear, actionable insights, a diverse array of visualization techniques were employed throughout the analysis. Each type of chart was carefully selected to best represent the data and convey key findings effectively. The visualizations include:
+
+**Donut Charts:** Utilized to illustrate proportional distribution of key metrics, such as impressions, likes, and comments across different marketing channels. These charts provide an immediate visual understanding of how engagement is distributed.
+
+**Column and Bar Charts:** Employed to compare performance metrics across campaigns or time periods. These charts excel at showing relative differences and trends in a straightforward, easily digestible format.
+	
+**Line Charts:** Used to depict trends over time, particularly for metrics like revenue and ROI. These charts clearly showcase performance fluctuations and long-term trends, enabling the identification of seasonal patterns or campaign impacts.
+
+**Maps:** Implemented to visualize geographic data, such as regional performance differences in ROI or engagement rates. This visualization type allows for quick identification of high-performing regions and areas that may need additional focus.
+	
+**Matrix Tables:** Utilized to present detailed, multi-dimensional data in a compact format. These tables are particularly useful for displaying summary statistics and allowing for quick comparisons across multiple variables simultaneously.
+
+
+## Home page
+___
+
+![image](https://github.com/user-attachments/assets/56eb6910-8b62-4c4f-aedf-ad0d26b75fd8)
+
+
+## Engagement Visual
+___
+
+![image](https://github.com/user-attachments/assets/4dafa63b-eb46-4764-af21-cc12f7068ad5)
+
+## Performance Visual
+___
+
+![image](https://github.com/user-attachments/assets/a5be5bc2-cdd4-4e23-afa3-46f2929eace2)
+
+
+ **SUMMARY OF REVENUE, ROI, AND OTHER KEY METRICS**
+			    
+	The analysis of the marketing campaign's performance revealed insightful trends and regional variations in revenue and Return on Investment (ROI). To visualize the monthly progression of revenue and ROI, I employed line charts. The **navy blue line**, representing ROI trends, and the **light blue line**, depicting revenue trends, provided a clear visual comparison of these two critical metrics over time. This visualization uncovered a notable peak in ROI during July, reaching an impressive 1343.31%. In contrast, November stood out as the month with the highest revenue, totaling 258,588.36. To understand the geographic distribution of our campaign's performance, I utilized a map visualization to present the share of revenue and ROI across different regions.   This approach offered an intuitive representation of regional performance variations. The findings highlighted **Birmingham** as the top-performing region with an ROI of 1293.01%.         
+    Conversely, **London** showed the lowest ROI among the three regions analyzed, at 697.57%. For a comprehensive overview of key performance indicators, I  implemented a matrix table. This table summarized essential metrics including clicks, daily average Cost Per Click (CPC), and Click-Through Rate (CTR) percentages. The matrix format allowed for easy comparison of these metrics across different campaigns and channels, providing a detailed snapshot of performance at various levels of granularity.
+
+    These visualizations collectively offer a multi-faceted view of our marketing campaign's performance. They highlight temporal trends, regional disparities, and granular performance metrics, enabling data-driven decision-making for future campaign optimizations.
+
+
+                        
+**RECOMMENDATIONS FOR COMPREHENSIVE CAMPAIGN OPTIMIZATION**
+
+**1. Channel and Platform Optimization:** Based on the exceptional performance of Pinterest, which demonstrated a remarkable ROI of 2147.29%, we recommend several strategic actions. First, it is crucial to prioritize and increase investment in Pinterest to capitalize on its high return. Analyzing the strategies that led to Pinterest's success can provide valuable insights, which can then be adapted and applied to other platforms. By reallocating resources from underperforming channels to high-performing ones like Pinterest, we can ensure a more efficient use of marketing budgets. Additionally, implementing a balanced, cross-channel integration approach will allow us to leverage the unique strengths of each platform, ultimately enhancing overall campaign performance.
+
+**2. Seasonal and Temporal Strategy:** Capitalizing on the success of the summer campaign, which achieved a notable ROI of 1308.92%, and the strong performance in July with an ROI of 1343.31%, we propose several strategic recommendations. Replicating the successful elements of these high-performing seasonal campaigns can provide a blueprint for future campaigns. Developing robust strategies for peak months will help maintain momentum throughout the year. Optimizing ad spend and focusing on conversion rates during high-revenue periods, such as November (with a revenue of 258,588.36), will maximize financial returns. Balancing our strategies to align both ROI and revenue goals throughout the year ensures sustained growth and profitability.
+
+**3. Geographic Targeting and Optimization:** The findings shows that Birmingham achieved the highest ROI at 1293.01%, while London lagged with an ROI of 697.57%.    To address this disparity, we recommend increasing investment in high-performing regions like Birmingham. Investigating the success factors in these top-performing regions will help identify practices that can be replicated elsewhere. For underperforming areas like London, we should enhance our strategies through tailored messaging, strategic ad placement, and targeted campaigns. Developing region-specific campaigns that account for local preferences and behaviors will further optimize our marketing efforts and improve performance across all regions.
+
+**4. Campaign Structure and Content Strategy:** To maximize engagement and ROI, we need to focus on the structure and content of our campaigns. Analyzing high-performing campaigns to identify key success factors is the first step. By structuring future campaigns to replicate these elements, we can ensure consistency in performance. Utilizing engagement metrics such as impressions, likes, and comments will inform our content creation process, enabling us to develop and promote high-engagement content across all platforms. Ensuring that campaign messaging and structure align with both engagement and financial goals is crucial for the overall success of our marketing efforts.
+
+**5. Budget Allocation and Financial Optimization:** Optimizing the budget allocation is essential for improving overall financial performance. Base on the findings adjusting budgets based on comprehensive ROI and revenue performance data. Increasing investment in high-ROI channels and campaigns will yield better returns. Maintaining adequate budget allocation for high-revenue periods and regions ensures we do not miss out on potential earnings. Implementing a dynamic budget allocation strategy that responds to real-time performance data will provide the flexibility needed to capitalize on emerging opportunities and mitigate risks promptly.
+
+**6. Continuous Monitoring, Analysis, and Optimization:** To ensure the ongoing success and agility of our campaigns, we must establish a robust system for continuous monitoring of both engagement and financial performance metrics. Implementing real time strategy adjustments based on ongoing performance data will allow us to stay responsive and proactive. Regularly analyzing the effectiveness of different ad types, messaging, and visuals across channels will provide insights for optimization. Periodic comprehensive reviews will help identify long-term trends and opportunities for innovation.  Fostering a culture of data-driven decision-making and continuous improvement in our marketing strategies is essential for maintaining a competitive edge and achieving sustained success.
+.
+
+
+       
+
+
+
+
+
+
+
+
 
 
 
